@@ -1,0 +1,71 @@
+.background {
+    background-color: darkgray;
+}
+.header {
+    font-family: Garamond, sans-serif;
+    color: #e9b89a;
+    background-color:black;
+    padding: 1px;
+    max-width: 100%;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+.header div {
+    padding-top: 1px;
+    margin-right: 400px;
+    font-family: Garamond, sans-serif;
+    font-size: 20px;
+    float: right;
+}
+
+.header div ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header section ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#absolute-box {
+    color: #f0b283;
+    background-color: black;
+    position: absolute;
+    left: 800px;
+    top: 250px;
+    font-size: 50px;
+    font-family: Garamond, sans-serif;
+}
+.picture {
+    height: 400px;
+    width: 100%;
+}
+.h2 {
+    font-family: Garamond, sans-serif;
+    font-size: 70px;
+}
+.parg {
+    background-color: #852f22;
+    font-size: 24px;
+}
+#WorkPic {
+   size: 10px;
+    
+}
+.work, #Contact-Me {
+    font-family: Garamond, sans-serif;
+    font-size: 70px;
+}
+.contact {
+    font-size:45px ;
+}
+#resume {
+    font-size: 60px;
+    font-family: Garamond, sans-serif;
+}
+
+
+/* Apologies for how the entire thing looks, his was a very rushed project and it's missing a few things aesthetically with the different screen size command because I didn't have much time to do it due to work, I'd like to re-submit this project soon, if possible. */
