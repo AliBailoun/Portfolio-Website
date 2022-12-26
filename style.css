@@ -1,20 +1,39 @@
 .background {
-    background-color: darkgray;
+    background-color: black;
 }
+
 .header {
     font-family: Garamond, sans-serif;
     color: #e9b89a;
-    background-color:black;
+    background-color: black;
     padding: 1px;
     max-width: 100%;
 }
+
 .header h1 {
-    display: inline-block;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    display: inline;
     font-size: 50px;
+    padding: 145px;
+    top: 30px;
+    margin: 70px;
+    color: grey;
+    left: 50px;
+
 }
+
+.header .right {
+    position: relative;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
 .header div {
     padding-top: 1px;
-    margin-right: 400px;
+    margin-right: 80px;
     font-family: Garamond, sans-serif;
     font-size: 20px;
     float: right;
@@ -31,41 +50,125 @@
 }
 
 #absolute-box {
-    color: #f0b283;
+    color: grey;
     background-color: black;
     position: absolute;
-    left: 800px;
-    top: 250px;
+    left: 610px;
+    top: 350px;
     font-size: 50px;
-    font-family: Garamond, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
 }
+
 .picture {
-    height: 400px;
-    width: 100%;
+    box-shadow: 0px 13px 10px black;
+    margin-left: 120px;
+    margin-top: 60px;
+
 }
+
 .h2 {
     font-family: Garamond, sans-serif;
     font-size: 70px;
 }
+
 .parg {
-    background-color: #852f22;
-    font-size: 24px;
+    background-color: grey;
+    font-size: 27px;
+    padding: 25px;
+    border-radius: 100px;
 }
+
 #WorkPic {
-   size: 10px;
-    
+    width: 100%;
+    border-radius: 100px;
+
 }
-.work, #Contact-Me {
+
+#work #Contact {
     font-family: Garamond, sans-serif;
     font-size: 70px;
+    color: grey;
+    font-weight: bolder;
+    border-radius: 25px;
 }
+
 .contact {
-    font-size:45px ;
+    font-size: 45px;
+    color: grey;
 }
-#resume {
-    font-size: 60px;
-    font-family: Garamond, sans-serif;
+
+#resumelink {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+.move-right {
+    display: flex;
+    justify-content: space-between;
+    display: inline;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.centered {
+    position: absolute;
+    top: 155%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: grey;
+    color: black;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.centers {
+    position: absolute;
+    top: 185%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: grey;
+    color: black;
+    border-radius: 100px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.center3 {
+    position: absolute;
+    top: 210%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: grey;
+    color: black;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+
+
+
+.header .right {
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    right: 8%;
+}
+
+p #work {
+    padding: 30px;
+}
+
 
 
 /* Apologies for how the entire thing looks, his was a very rushed project and it's missing a few things aesthetically with the different screen size command because I didn't have much time to do it due to work, I'd like to re-submit this project soon, if possible. */
