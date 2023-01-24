@@ -170,5 +170,18 @@ p #work {
 }
 
 
-
-/* Apologies for how the entire thing looks, his was a very rushed project and it's missing a few things aesthetically with the different screen size command because I didn't have much time to do it due to work, I'd like to re-submit this project soon, if possible. */
+#project {
+    position: absolute;
+    top: 185%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: grey;
+    color: black;
+    border-radius: 100px;
+    padding: 10px;
+    font-weight: bolder;
+    top: 1478px;
+}
